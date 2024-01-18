@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="App container-fluid">
+        <!-- Header -->
+        <header class="App-header row">
+            <div class="col-6">
+                <img src="logo.svg" class="App-logo img-fluid" alt="logo" />
+            </div>
+            <div id="hamburger-icon" class="col-6">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav id="nav" class="w-100">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="#product">Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#case-studies">Case Studies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn-primary">Get Started</button>
+        </header>
+
+        <div class="container text-center">
+            <h1 class="heading">Save 50% for 12 months</h1>
+            <h2 class="subheading">Simple, transparent pricing</h2>
+            <p class="body">No hidden or surprise fees.</p>
+        </div>
+        <div class='packages-container row'>
+            <div class="package01 col-md-6">
+                <!-- Rest of the code -->
+                <div class="price-box">
+                    <div class="price-header">
+                        <span class="price-title">Lite</span><br/>
+                        <span class="price-value">19 $</span> <span> / month</span>
+                    </div>
+                    <span class="price-features" , style="color:gray" ;>For small and medium scale businesses</span>
+                    <div class="price-features">
+
+                        <ul>
+                            <li>20 users</li>
+                            <li>200 transactions</li>
+                            <li>100MB Storage</li>
+                            <li>API Access</li>
+                            <li>Email Support</li>
+                        </ul>
+                    </div>
+                    <div class="price-action">
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="package02 col-md-6">
+                <!-- Rest of the code -->
+                <div class="price-box02">
+                    <div class="price-header02">
+                        <span class="price-title02">Premium</span><br/>
+                        <span class="price-value02">199 $</span> <span style="color:white" ;> / month</span>
+                    </div>
+                    <span class="price-features02" style="color:gray" ;>For large scale enterprises and businesses</span>
+                    <div class="price-features02">
+
+                        <ul>
+                            <li>100 users</li>
+                            <li>1000 transactions</li>
+                            <li>500MB Storage</li>
+                            <li>API Access</li>
+                            <li>Email Support</li>
+                        </ul>
+                    </div>
+                    <div class="price-action02">
+                        <button class="buy-now-button02">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="custom-pricing text-center">
+            <p>Need a custom pricing package, <br/> unique for your business?</p>
+            <button class="btn btn-primary">Contact Sales</button>
+        </div>
+
+        <footer></footer>
+
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
